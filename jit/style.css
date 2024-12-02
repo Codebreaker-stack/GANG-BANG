@@ -1,0 +1,18 @@
+body {
+  animation: 6s infinite color;
+}
+@keyframes color {
+  25% {
+    background-color: blueviolet;
+  }
+  50% {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  75% {
+    background-color: rgba(0, 255, 0, 0.5);
+  }
+  100%{
+    background-color: rgba(0,0,255,0.5);
+  }
+}
+
